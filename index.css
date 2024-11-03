@@ -22,5 +22,6 @@ body {
     z-index: -1;
     top: 0;
     left: 0;
-    background: url(./NingMenh-Web/img/bg.jpg);
+    background: url(./img/bg.jpg) no-repeat center center; /* 中心对齐 */
+    background-size: cover; /* 覆盖整个元素 */
 }
